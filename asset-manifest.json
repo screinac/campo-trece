@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.js": "/static/js/main.ccebc2ed.chunk.js",
+    "main.js.map": "/static/js/main.ccebc2ed.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d365efc7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d365efc7.js.map",
+    "static/js/2.3a20b3ee.chunk.js": "/static/js/2.3a20b3ee.chunk.js",
+    "static/js/2.3a20b3ee.chunk.js.map": "/static/js/2.3a20b3ee.chunk.js.map",
+    "static/js/3.cf3ffb00.chunk.js": "/static/js/3.cf3ffb00.chunk.js",
+    "static/js/3.cf3ffb00.chunk.js.map": "/static/js/3.cf3ffb00.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.3a20b3ee.chunk.js.LICENSE.txt": "/static/js/2.3a20b3ee.chunk.js.LICENSE.txt",
+    "static/media/Cerdo.b00250d9.jpg": "/static/media/Cerdo.b00250d9.jpg",
+    "static/media/Chorizo.45683b85.jpg": "/static/media/Chorizo.45683b85.jpg",
+    "static/media/Chorizo.a779b892.jpg": "/static/media/Chorizo.a779b892.jpg",
+    "static/media/ContactBg.e512872f.jpg": "/static/media/ContactBg.e512872f.jpg",
+    "static/media/Hamburguesa_Desmechada.c0988e69.jpg": "/static/media/Hamburguesa_Desmechada.c0988e69.jpg",
+    "static/media/Hamburguesa_Doblecarne.5934d704.jpg": "/static/media/Hamburguesa_Doblecarne.5934d704.jpg",
+    "static/media/Hamburguesa_Doblecarne.e7cac3f7.jpg": "/static/media/Hamburguesa_Doblecarne.e7cac3f7.jpg",
+    "static/media/HeroBg.06715f08.jpg": "/static/media/HeroBg.06715f08.jpg",
+    "static/media/IconDomicilios.0c080303.png": "/static/media/IconDomicilios.0c080303.png",
+    "static/media/IconDomiciliosWhite.736c0c7d.png": "/static/media/IconDomiciliosWhite.736c0c7d.png",
+    "static/media/IconRappi.b8717365.png": "/static/media/IconRappi.b8717365.png",
+    "static/media/IconRappiWhite.55f5799c.png": "/static/media/IconRappiWhite.55f5799c.png",
+    "static/media/Logo.53088e3b.png": "/static/media/Logo.53088e3b.png",
+    "static/media/Perro.b1363d77.jpg": "/static/media/Perro.b1363d77.jpg",
+    "static/media/Perro.cf4967be.jpg": "/static/media/Perro.cf4967be.jpg",
+    "static/media/bebidas.6ed6f564.jpeg": "/static/media/bebidas.6ed6f564.jpeg",
+    "static/media/combos.44ca52fa.jpg": "/static/media/combos.44ca52fa.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d365efc7.js",
+    "static/js/2.3a20b3ee.chunk.js",
+    "static/js/main.ccebc2ed.chunk.js"
+  ]
+}
