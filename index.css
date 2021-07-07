@@ -59,6 +59,21 @@ p {
   max-width: 1600px;
 }
 
+.btn {
+  display: inline-block;
+  margin: 0.2em 0;
+  padding: 0.35em 1.2em;
+  color: var(--primary-light);
+  background: var(--secondary-color);
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  border-radius: 2px;
+}
+
+.sub-btn {
+  color: var(--primary-light);
+}
+
 /* navbar section  */
 .navbar {
   background-color: var(--primary-color);
@@ -90,6 +105,66 @@ p {
   margin-right: 0.2em;
 }
 
+/* hero section */
+.hero {
+  min-height: 90vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.627), rgba(0, 0, 0, 0.6)),
+    url('assets/Hero/HeroBg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero .container {
+  display: flex;
+  min-height: 90vh;
+  align-items: center;
+  justify-content: left;
+}
+
+.hero-content {
+  position: relative;
+  top: -30px;
+  max-width: 280px;
+}
+
+.hero-title {
+  color: var(--primary-light);
+  font-size: 3.5rem;
+  line-height: 100%;
+  border-bottom: var(--primary-color) solid 5px;
+  border-right: var(--primary-color) solid 5px;
+}
+
+.hero-subtitle {
+  color: var(--primary-light);
+  font-size: 1.8rem;
+  letter-spacing: 3px;
+}
+
+/* comida y platos destacados */
+.comida-destacada {
+  background-color: var(--background-black);
+}
+.comida-card {
+  background-color: var(--primary-color);
+  padding: 1em 1em;
+  margin-bottom: 1em;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.comida-card-title {
+  margin-top: 0.6em;
+  margin-bottom: 0.2em;
+  font-size: 1.5rem;
+}
+.comida-card-price {
+  margin: 0.2em 0;
+  font-size: 1.8rem;
+}
 @media only screen and (min-width: 700px) {
 }
 
