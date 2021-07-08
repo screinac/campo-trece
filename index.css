@@ -10,7 +10,7 @@
 
 :root {
   --primary-light: #fff;
-  --secondary-light: rgb(255, 239, 239);
+  --secondary-light: rgb(207, 207, 207);
   --primary-black: #2e2e2e;
   --secondary-black: #3c3c3c;
   --background-black: #1d1d1d;
@@ -59,6 +59,11 @@ p {
   max-width: 1600px;
 }
 
+.sub-container {
+  padding: 1em 1em;
+  margin: 0 auto;
+}
+
 .btn {
   display: inline-block;
   margin: 0.2em 0;
@@ -68,10 +73,27 @@ p {
   text-transform: uppercase;
   font-size: 0.9rem;
   border-radius: 2px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.btn-yellow {
+  display: inline-block;
+  background-color: var(--primary-color);
+  font-weight: bold;
+  margin: 0.2em 0;
+  padding: 0.4em 1.4em;
+  text-transform: uppercase;
+  font-size: 1rem;
+  border-radius: 2px;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 .sub-btn {
-  color: var(--primary-light);
+  color: var(--secondary-light);
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 /* navbar section  */
@@ -146,6 +168,7 @@ p {
 .comida-destacada {
   background-color: var(--background-black);
 }
+
 .comida-card {
   background-color: var(--primary-color);
   padding: 1em 1em;
@@ -161,10 +184,129 @@ p {
   margin-bottom: 0.2em;
   font-size: 1.5rem;
 }
+
+.comida-content {
+  margin: 4em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .comida-card-price {
   margin: 0.2em 0;
   font-size: 1.8rem;
 }
+.comida-title {
+  color: var(--primary-light);
+  max-width: 450px;
+  margin: 0 auto;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 1em;
+}
+
+/* division con imagenes section  */
+.division-imgs {
+  background-color: var(--primary-color);
+}
+
+.division-imgs .container:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+/* contact section  */
+.contact {
+  background-color: var(--background-black);
+}
+
+.contact .container {
+  padding: 0;
+  margin: 0;
+}
+
+.contact p,
+.contact h4 {
+  color: var(--primary-light);
+}
+
+.contact p {
+  margin: 0.6em 0;
+}
+
+.contact-content {
+  margin-top: 1em;
+}
+
+.contact-subtitle {
+  color: var(--primary-light);
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.contact-title {
+  color: var(--primary-light);
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.contact-columns {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-social-content {
+  margin-bottom: 1.5em;
+}
+
+.contact-location-content {
+  margin: 1.5em 0 2em 0;
+}
+
+.contact-location {
+  background-color: var(--secondary-color);
+}
+
+/* footer section  */
+footer {
+  background-color: var(--primary-color);
+}
+
+footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-list {
+  display: flex;
+  gap: 2em;
+  margin: 1em auto;
+}
+
+.footer-logo {
+  display: inline-block;
+  color: var(--primary-black);
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.footer-link-img {
+  max-width: 30px;
+}
+
+.footer-p {
+  color: var(--secondary-black);
+  text-align: center;
+}
+
+.plupweb-link {
+  color: var(--background-black);
+}
+
 @media only screen and (min-width: 700px) {
 }
 
