@@ -169,6 +169,12 @@ p {
   background-color: var(--background-black);
 }
 
+.comida-destacada .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .comida-card {
   background-color: var(--primary-color);
   padding: 1em 1em;
@@ -177,7 +183,9 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   text-align: center;
+  max-width: 350px;
 }
 .comida-card-title {
   margin-top: 0.6em;
@@ -196,6 +204,7 @@ p {
   margin: 0.2em 0;
   font-size: 1.8rem;
 }
+
 .comida-title {
   color: var(--primary-light);
   max-width: 450px;
@@ -210,7 +219,7 @@ p {
   background-color: var(--primary-color);
 }
 
-.division-imgs .container:nth-child(1) {
+.division-imgs .container {
   display: flex;
   flex-direction: column;
   gap: 1em;
@@ -308,6 +317,76 @@ footer .container {
 }
 
 @media only screen and (min-width: 700px) {
+  h2 {
+    font-size: 2rem;
+  }
+
+  .container {
+    padding: 2em 2em;
+    margin: 0 auto;
+  }
+
+  .sub-container {
+    padding: 0;
+    margin: 0;
+  }
+
+  /* navbar section */
+  .navbar .container {
+    padding: 1em 2em;
+  }
+
+  /* hero section */
+  .hero-content {
+    max-width: 300px;
+  }
+  .hero-title {
+    font-size: 4.3rem;
+    width: 100%;
+  }
+  .hero-subtitle {
+    font-size: 2rem;
+  }
+
+  /* comidas destacadas section */
+  .comida-cards {
+    display: flex;
+    gap: 1em;
+  }
+  .comida-cards > * {
+    flex-basis: 0;
+    flex-grow: 1;
+  }
+
+  .comida-card:nth-child(2) {
+    position: relative;
+    top: -1.5rem;
+  }
+
+  /* division con imagnes section */
+  .division-imgs .container {
+    flex-direction: row;
+    gap: 2em;
+  }
+
+  /* contact section  */
+  .contact .container {
+    padding: 2em 2em;
+    margin: 0 auto;
+  }
+  .contact-content {
+    margin-top: 0;
+    margin-bottom: 2em;
+  }
+
+  .contact-columns {
+    flex-direction: row;
+  }
+
+  .contact-columns > * {
+    flex-basis: 0;
+    flex-grow: 1;
+  }
 }
 
 @media only screen and (min-width: 1265px) {
