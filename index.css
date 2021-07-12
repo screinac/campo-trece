@@ -29,7 +29,6 @@ html {
 
 body {
   font-family: 'Poppins';
-  font-size: clamp(16px, 1vw, 18px);
 }
 
 a {
@@ -71,7 +70,7 @@ p {
   color: var(--primary-light);
   background: var(--secondary-color);
   text-transform: uppercase;
-  font-size: 0.9rem;
+  font-size: clamp(0.9rem, 2vw, 1rem);
   border-radius: 2px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -107,6 +106,7 @@ p {
 }
 .nav-logo {
   font-weight: bold;
+  font-size: clamp(0.7rem, 2vw, 1.3rem);
 }
 .nav-list {
   display: flex;
@@ -117,7 +117,7 @@ p {
   display: flex;
   align-items: center;
   padding: 0 0.5em;
-  font-size: 0.7rem;
+  font-size: clamp(0.7rem, 2vw, 0.9rem);
   font-weight: bold;
 }
 
@@ -147,12 +147,12 @@ p {
 .hero-content {
   position: relative;
   top: -30px;
-  max-width: 280px;
+  width: clamp(250px, 32vw, 400px);
 }
 
 .hero-title {
   color: var(--primary-light);
-  font-size: 3.5rem;
+  font-size: clamp(3.5rem, 6vw, 6rem);
   line-height: 100%;
   border-bottom: var(--primary-color) solid 5px;
   border-right: var(--primary-color) solid 5px;
@@ -190,7 +190,7 @@ p {
 .comida-card-title {
   margin-top: 0.6em;
   margin-bottom: 0.2em;
-  font-size: 1.5rem;
+  font-size: clamp(1.5rem, 2vw, 2rem);
 }
 
 .comida-content {
@@ -207,16 +207,19 @@ p {
 
 .comida-title {
   color: var(--primary-light);
-  max-width: 450px;
+  max-width: 600px;
   margin: 0 auto;
   text-align: center;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   margin-bottom: 1em;
+  font-size: clamp(1.2rem, 5vw, 3rem);
 }
 
 /* division con imagenes section  */
 .division-imgs {
   background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
 }
 
 .division-imgs .container {
@@ -251,14 +254,16 @@ p {
 .contact-subtitle {
   color: var(--primary-light);
   font-weight: normal;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   text-align: center;
+  font-size: clamp(1rem, 4vw, 2rem);
 }
 
 .contact-title {
   color: var(--primary-light);
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   text-align: center;
+  font-size: clamp(1.2rem, 5vw, 3rem);
 }
 
 .contact-columns {
@@ -276,6 +281,14 @@ p {
 
 .contact-location {
   background-color: var(--secondary-color);
+}
+
+.contact-social-title {
+  font-size: clamp(1rem, 1.5vw, 2rem);
+}
+
+.contact-location-title {
+  font-size: clamp(1rem, 1.5vw, 2rem);
 }
 
 /* footer section  */
@@ -337,13 +350,7 @@ footer .container {
   }
 
   /* hero section */
-  .hero-content {
-    max-width: 300px;
-  }
-  .hero-title {
-    font-size: 4.3rem;
-    width: 100%;
-  }
+
   .hero-subtitle {
     font-size: 2rem;
   }
@@ -351,11 +358,14 @@ footer .container {
   /* comidas destacadas section */
   .comida-cards {
     display: flex;
-    gap: 1em;
+    gap: clamp(1rem, 3vw, 5rem);
   }
   .comida-cards > * {
     flex-basis: 0;
     flex-grow: 1;
+  }
+  .comida-card {
+    max-width: 350px;
   }
 
   .comida-card:nth-child(2) {
@@ -387,7 +397,52 @@ footer .container {
     flex-basis: 0;
     flex-grow: 1;
   }
+  .contact-social-content {
+    margin-bottom: 1.5em;
+    padding: 3em;
+  }
+
+  .contact-location-content {
+    margin: 1.5em 0 2em 0;
+    padding: 2em;
+  }
+
+  /* footer section */
+  .footer .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      'logo list'
+      'p  p';
+  }
+  .footer-logo {
+    grid-area: logo;
+    justify-self: start;
+  }
+  .footer-list {
+    grid-area: list;
+    margin: 0;
+    justify-self: end;
+  }
+  .footer-p {
+    grid-area: p;
+  }
 }
 
 @media only screen and (min-width: 1265px) {
+  /* comida section */
+  .comida-cards {
+    display: flex;
+    gap: clamp(1rem, 6vw, 5rem);
+  }
+
+  /* division con imagnes section */
+  .division-imgs .container {
+    gap: 4em;
+  }
+  /* contact section  */
+  .contact-columns {
+    align-items: center;
+    justify-content: center;
+  }
 }
