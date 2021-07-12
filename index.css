@@ -212,7 +212,7 @@ p {
   text-align: center;
   letter-spacing: 3px;
   margin-bottom: 1em;
-  font-size: clamp(1.2rem, 5vw, 3rem);
+  font-size: clamp(1.2rem, 4.2vw, 3rem);
 }
 
 /* division con imagenes section  */
@@ -256,14 +256,14 @@ p {
   font-weight: normal;
   letter-spacing: 3px;
   text-align: center;
-  font-size: clamp(1rem, 4vw, 2rem);
+  font-size: clamp(1rem, 3vw, 2.3rem);
 }
 
 .contact-title {
   color: var(--primary-light);
   letter-spacing: 3px;
   text-align: center;
-  font-size: clamp(1.2rem, 5vw, 3rem);
+  font-size: clamp(1.2rem, 4.2vw, 3rem);
 }
 
 .contact-columns {
@@ -291,6 +291,18 @@ p {
   font-size: clamp(1rem, 1.5vw, 2rem);
 }
 
+.contact-btn-whatsapp-icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 22px;
+}
+
+.contact-btn-location-icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 22px;
+}
+
 /* footer section  */
 footer {
   background-color: var(--primary-color);
@@ -306,6 +318,7 @@ footer .container {
   display: flex;
   gap: 2em;
   margin: 1em auto;
+  align-items: center;
 }
 
 .footer-logo {
@@ -318,6 +331,7 @@ footer .container {
 
 .footer-link-img {
   max-width: 30px;
+  width: 40px;
 }
 
 .footer-p {
