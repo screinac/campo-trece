@@ -288,7 +288,7 @@ footer .container {
   color: var(--background-black);
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 600px) {
   h2 {
     font-size: 2rem;
   }
@@ -377,7 +377,7 @@ footer .container {
   }
 }
 
-@media only screen and (min-width: 1265px) {
+@media only screen and (min-width: 1000px) {
   /* contact section  */
   .contact-columns {
     align-items: center;
@@ -397,6 +397,7 @@ footer .container {
     display: flex;
     gap: 2em;
     align-items: center;
+    justify-content: space-between;
     margin-bottom: 0.4em;
   }
 

@@ -346,7 +346,7 @@ footer .container {
   color: var(--background-black);
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 600px) {
   h2 {
     font-size: 2rem;
   }
@@ -446,7 +446,7 @@ footer .container {
   }
 }
 
-@media only screen and (min-width: 1265px) {
+@media only screen and (min-width: 1000px) {
   /* comida section */
   .comida-cards {
     display: flex;

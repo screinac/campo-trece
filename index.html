@@ -30,7 +30,7 @@
 
         <ul class="nav-list">
           <li class="nav-item">
-            <a href="/menu.html" class="nav-link">
+            <a href="/menu" class="nav-link">
               <img
                 src="/assets/Navbar/comida-rapida.svg"
                 alt="Hamburguesa con gaseosa"
@@ -40,13 +40,13 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="#contacto" class="nav-link">
               <img
                 src="/assets/Navbar/repartidor.svg"
                 alt="Repartidor de domicilios rápidos en moto"
                 class="nav-icon"
               />
-              Pide Ahora</a
+              Pide A Domicilio</a
             >
           </li>
         </ul>
@@ -59,14 +59,14 @@
         <div class="hero-content">
           <h1 class="hero-title">Campo Trece</h1>
           <h2 class="hero-subtitle">Comida Rápida</h2>
-          <a href="#" class="btn">Pide A Domicilio </a> <br />
-          <a href="#" class="sub-btn">Ver Comidas más pedidas</a>
+          <a href="#contacto" class="btn">Pide A Domicilio </a> <br />
+          <a href="#mas-pedido" class="sub-btn">Ver Comidas más pedidas</a>
         </div>
       </div>
     </section>
 
     <!-- platos destacados  -->
-    <section class="comida-destacada">
+    <section class="comida-destacada" id="mas-pedido">
       <div class="container">
         <div class="comida-cards">
           <!-- card init -->
@@ -83,7 +83,8 @@
               </p>
               <p class="comida-card-price">$11.000</p>
             </div>
-            <a href="#" class="btn comida-card-btn">Pide A Domicilio</a>
+            <a href="#contacto" class="btn comida-card-btn">Pide A Domicilio</a>
+            <a href="/menu" class="subtitle">O mira nuestro menú completo</a>
           </div>
           <!-- card end -->
           <!-- card init -->
@@ -98,7 +99,8 @@
               Hambueguesa doble carne, Papas a la Francesa y Gaseosa 350ml.
             </p>
             <p class="comida-card-price">$15.500</p>
-            <a href="#" class="btn comida-card-btn">Pide A Domicilio</a>
+            <a href="#contacto" class="btn comida-card-btn">Pide A Domicilio</a>
+            <a href="/menu" class="subtitle">O mira nuestro menú completo</a>
           </div>
           <!-- card end -->
           <!-- card init -->
@@ -113,13 +115,14 @@
               Carne de Cerdo, Papas a la Francesa, Arepa con Queso y Ensalada.
             </p>
             <p class="comida-card-price">$13.500</p>
-            <a href="#" class="btn comida-card-btn">Pide A Domicilio</a>
+            <a href="#contacto" class="btn comida-card-btn">Pide A Domicilio</a>
+            <a href="/menu" class="subtitle">O mira nuestro menú completo</a>
           </div>
           <!-- card end -->
         </div>
         <div class="comida-content">
           <h2 class="comida-title">¡Tenemos muchas delicias para ti!</h2>
-          <a href="#" class="btn-yellow">Mira nuestro menú</a>
+          <a href="/menu" class="btn-yellow">Mira nuestro menú</a>
         </div>
       </div>
     </section>
@@ -141,7 +144,7 @@
     </section>
 
     <!-- contact -->
-    <section class="contact">
+    <section class="contact" id="contacto">
       <div class="container">
         <div class="sub-container">
           <div class="contact-content">
@@ -155,7 +158,10 @@
               <div class="contact-social-content">
                 <h4 class="contact-social-title">Pide a domicilio</h4>
                 <p class="contact-social-tel">Teléfono: 5207872 / 8116133</p>
-                <a href="#" class="btn-yellow contact-btn-whatsapp"
+                <a
+                  href="https://api.whatsapp.com/send/?phone=573212043484&text=Hola%21+quiero+pedir+una+&app_absent=0"
+                  class="btn-yellow contact-btn-whatsapp"
+                  target="_blank"
                   ><img
                     src="assets/Logo/whatsapp-logo.svg"
                     alt="Whatsapp Logo"
@@ -163,8 +169,12 @@
                   />Pide por WhatsApp</a
                 >
                 <p class="contact-p">O pide por</p>
-                <a href="#" class="btn-yellow contact-btn-ifood">Ifood</a>
-                <a href="#" class="btn-yellow contact-btn-rappi">Rappi</a>
+                <a href="#" class="btn-yellow contact-btn-ifood" target="_blank"
+                  >Ifood</a
+                >
+                <a href="#" class="btn-yellow contact-btn-rappi" target="_blank"
+                  >Rappi</a
+                >
               </div>
             </div>
           </div>
@@ -177,7 +187,11 @@
                 <p class="contact-location-direction">
                   Cra. 50 ## 142-68, Bogotá, Cundinamarca
                 </p>
-                <a href="#" class="btn-yellow contact-btn-location">
+                <a
+                  href="https://goo.gl/maps/1gyYaZhZU9Y1MqMp6"
+                  class="btn-yellow contact-btn-location"
+                  target="_blank"
+                >
                   <img
                     src="assets/Logo/location-logo.svg"
                     alt="Whatsapp Logo"
@@ -193,10 +207,13 @@
 
     <footer class="footer">
       <div class="container">
-        <a href="#" class="footer-logo">Campo Trece</a>
+        <a href="/" class="footer-logo">Campo Trece</a>
         <ul class="footer-list">
           <li class="footer-item">
-            <a href="#" class="footer-link"
+            <a
+              href="https://api.whatsapp.com/send/?phone=573212043484&text=Hola%21+quiero+pedir+una+&app_absent=0"
+              class="footer-link"
+              target="_blank"
               ><img
                 src="assets/Logo/whatsapp-logo.svg"
                 alt="whatsapp icon"
@@ -209,6 +226,7 @@
                 src="assets/Logo/ifood-logo.svg"
                 alt="ifood icon"
                 class="footer-link-img"
+                target="_blank"
             /></a>
           </li>
           <li class="footer-item">
@@ -217,6 +235,7 @@
                 src="assets/Logo/rappi-logo.svg"
                 alt="rappi icon"
                 class="footer-link-img"
+                target="_blank"
             /></a>
           </li>
         </ul>
@@ -227,8 +246,12 @@
             document.write(d.getFullYear())
           </script>
           Campo Trece by
-          <a href="https://www.plupweb.com/" class="plupweb-link">Plupweb</a>.
-          All rights reserved.
+          <a
+            href="https://www.plupweb.com/"
+            class="plupweb-link"
+            target="_blank"
+            >Plupweb</a
+          >. All rights reserved.
         </p>
       </div>
     </footer>
