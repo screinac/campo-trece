@@ -66,7 +66,7 @@ p {
 .btn {
   display: inline-block;
   margin: 0.2em 0;
-  padding: 0.35em 1.2em;
+  padding: 0.35em 2em;
   color: var(--primary-light);
   background: var(--secondary-color);
   text-transform: uppercase;
@@ -74,6 +74,8 @@ p {
   border-radius: 2px;
   font-weight: bold;
   letter-spacing: 1px;
+  font-weight: normal;
+  text-transform: capitalize;
 }
 
 .btn-yellow {
@@ -225,6 +227,7 @@ p {
 .division-imgs .container {
   display: flex;
   flex-direction: column;
+
   gap: 1em;
 }
 
@@ -452,7 +455,7 @@ footer .container {
 
   /* division con imagnes section */
   .division-imgs .container {
-    gap: 4em;
+    gap: 5em;
   }
   /* contact section  */
   .contact-columns {
