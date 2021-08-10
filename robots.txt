@@ -4,4 +4,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: http://www.campotrece.com/sitemap.xml
+Sitemap: https://www.campotrece.com/sitemap.xml
