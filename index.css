@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 *,
 *:before,
@@ -28,7 +28,7 @@ html {
 }
 
 body {
-  font-family: "Poppins";
+  font-family: 'Poppins';
 }
 
 a {
@@ -133,7 +133,7 @@ p {
 .hero {
   min-height: 90vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.627), rgba(0, 0, 0, 0.6)),
-    url("assets/Hero/HeroBg.jpg");
+    url('assets/Hero/HeroBg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -246,6 +246,50 @@ p {
   justify-content: center;
   max-width: 800px;
   margin: 0 auto 1.5em auto;
+}
+
+/* menu title section */
+.menu-main-title {
+  color: var(--primary-light);
+  background-color: var(--background-black);
+  text-align: center;
+  padding: 0.3em 0;
+  font-weight: normal;
+  min-height: 50px;
+  font-size: clamp(1rem, 20vw, 2rem);
+}
+.menu-divition {
+  height: clamp(50px, 3vh, 100px);
+  background-color: var(--secondary-color);
+}
+
+/* menu section  */
+.menu {
+  background-color: var(--primary-color);
+}
+.menu-title {
+  font-weight: normal;
+  font-size: clamp(2.3rem, 1vw, 2rem);
+}
+
+.menu-col-r,
+.menu-col-l {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 550px;
+}
+.menu-item-title {
+  font-weight: bold;
+}
+.menu-price {
+  font-weight: bold;
+  margin-bottom: 0.4em;
+}
+.menu-btn {
+  display: inline-block;
+  text-align: center;
+  margin: 0.5em auto 1.7em auto;
 }
 
 /* contact section  */
@@ -414,6 +458,25 @@ footer .container {
     gap: 2em;
   }
 
+  /* menu section */
+  .menu .container {
+    padding: 1em 3em;
+  }
+  .menu-cols {
+    display: flex;
+    gap: 2em;
+    justify-content: space-between;
+  }
+
+  .menu-cols > * {
+    flex-basis: 0;
+    flex-grow: 1;
+  }
+
+  .menu-btn {
+    margin: 1.3em auto 3em auto;
+  }
+
   /* contact section  */
   .contact .container {
     padding: 2em 2em;
@@ -447,8 +510,8 @@ footer .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
-      "logo list"
-      "p  p";
+      'logo list'
+      'p  p';
   }
   .footer-logo {
     grid-area: logo;
@@ -475,6 +538,30 @@ footer .container {
   .division-cols {
     gap: 5em;
   }
+
+  /* menu section */
+  .menu .container {
+    padding: 1em 10em;
+  }
+  .menu-cols {
+    gap: 6em;
+  }
+  .menu-title {
+    margin-bottom: 0.7em;
+  }
+  .menu-item {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.4em;
+  }
+
+  /* menu section 2 */
+  .menu .pt-10 {
+    padding-top: 3em;
+  }
+
   /* contact section  */
   .contact-columns {
     align-items: center;
