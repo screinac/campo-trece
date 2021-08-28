@@ -4,8 +4,9 @@
     <link rel="stylesheet" href="index.css" />
     <link rel="apple-touch-icon" href="assets/logo192.png" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <link rel = “alternate” href = “https://www.campotrece.com” hreflang = “es-co”
-    />
+    <link rel = “alternate” href = “https://www.campotrece.com” hreflang =
+    “es-co” />
+    <link rel="canonical" href="https://www.campotrece.com" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -57,7 +58,7 @@
 
     <meta
       name="description"
-      content="Pide a domicilio en Campo Trece y disfruta de una deliciosa comida rápida. Ofrecemos variedad de hamburguesas, perros calientes, mazorcadas, carnes y más."
+      content="Pide a domicilio en Campo Trece Prado Pinzón y disfruta de una deliciosa comida rápida. Ofrecemos variedad de hamburguesas, perros calientes, mazorcadas, carnes y más."
     />
     <meta
       name="keywords"
@@ -66,6 +67,19 @@
     <meta name="author" content="Plupweb" />
 
     <meta name="copyright" content="Campo Trece" />
+
+    <meta property="og:title" content="Campo Trece Comida Rápida" />
+    <meta
+      property="og:description"
+      content="Comida Rápida a Domicilio en Prado Pinzón"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="/assets/menu/Hamburguesa_Doblecarne.jpg"
+    />
+
+    <meta name="robots" content="index, follow" />
   </head>
 
   <body>
@@ -79,7 +93,7 @@
             <a href="#menu" class="nav-link">
               <img
                 src="/assets/Navbar/comida-rapida.svg"
-                alt="Hamburguesa con gaseosa"
+                alt="Hamburguesa Campo Trece con gaseosa"
                 class="nav-icon"
               />
               Menú
@@ -89,7 +103,7 @@
             <a href="#contacto" class="nav-link">
               <img
                 src="/assets/Navbar/repartidor.svg"
-                alt="Repartidor de domicilios rápidos en moto"
+                alt="Repartidor de domicilios rápidos en moto de Campo Trece"
                 class="nav-icon"
               />
               Pide A Domicilio</a
@@ -100,20 +114,21 @@
     </header>
 
     <!-- hero -->
-    <section class="hero">
+    <main class="hero">
       <div class="container">
         <div class="hero-content">
           <h1 class="hero-title">Campo Trece</h1>
-          <h2 class="hero-subtitle">Comida Rápida</h2>
+          <p class="hero-subtitle">Comida Rápida</p>
           <a href="#contacto" class="btn">Pide A Domicilio </a> <br />
           <a href="#mas-pedido" class="sub-btn">Ver Comidas más pedidas</a>
         </div>
       </div>
-    </section>
+    </main>
 
     <!-- platos destacados  -->
     <section class="comida-destacada" id="mas-pedido">
       <div class="container">
+        <h2 class="comida-destacada-title">Comida Rápida más pedida</h2>
         <div class="comida-cards">
           <!-- card init -->
           <div class="comida-card">
@@ -123,7 +138,7 @@
                 alt="Perro caliente con papas y salsa."
                 class="comida-card-img"
               />
-              <h3 class="comida-card-title">Combo 7</h3>
+              <h4 class="comida-card-title">Combo 7</h4>
               <p class="comida-card-desc">
                 Perro Americano, Papas a la Francesa y Gaseosa 400ml.
               </p>
@@ -140,7 +155,7 @@
               alt="Hamburguesa doblecarne con papas."
               class="comida-card-img"
             />
-            <h3 class="comida-card-title">Combo 2</h3>
+            <h4 class="comida-card-title">Combo 2</h4>
             <p class="comida-card-desc">
               Hambueguesa doble carne, Papas a la Francesa y Gaseosa 400ml.
             </p>
@@ -156,7 +171,7 @@
               alt="Carne de cerdo asada con arepa, ensalada y papas."
               class="comida-card-img"
             />
-            <h3 class="comida-card-title">Carne de Cerdo</h3>
+            <h4 class="comida-card-title">Carne de Cerdo</h4>
             <p class="comida-card-desc">
               Carne de Cerdo, Papas a la Francesa, Arepa con Queso y Ensalada.
             </p>
@@ -168,7 +183,7 @@
         </div>
         <div class="comida-content">
           <h2 class="comida-subtitle">En Campo Trece</h2>
-          <h3 class="comida-title">¡Tenemos muchas delicias para ti!</h3>
+          <p class="comida-title">¡Tenemos muchas delicias para ti!</p>
           <a href="#menu" class="btn-yellow">Mira nuestro menú</a>
         </div>
       </div>
@@ -178,7 +193,7 @@
     <section class="division-imgs">
       <div class="container">
         <div class="division-content">
-          <h2 class="division-title">Sobre Nosotros</h2>
+          <h2 class="division-title">Acerca de Campo Trece Prado Pinzón</h2>
           <p class="division-p">
             En Campo Trece hacemos Comida Rápida exquisita a precios muy cómodos
             con Excelente Calidad. Desde 1996 entregando lo mejor a nuestros
@@ -218,13 +233,13 @@
 
     <!-- Menu title section  -->
     <section class="menu-title-section" id="menu">
-      <h2 class="menu-main-title">Este es nuestro menú</h2>
+      <h2 class="menu-main-title">Nuestro menú</h2>
     </section>
 
     <!-- Menu 1 section -->
     <section class="menu">
       <div class="container">
-        <h2 class="menu-title">Combos</h2>
+        <h3 class="menu-title">Combos</h3>
         <div class="menu-cols">
           <!-- col init -->
           <div class="menu-col-l">
@@ -356,7 +371,7 @@
         <div class="menu-cols">
           <!-- column init -->
           <div class="menu-col-r">
-            <h2 class="menu-title">Mazorcadas</h2>
+            <h3 class="menu-title">Mazorcadas</h3>
             <!-- menu item-start -->
             <div class="menu-item">
               <p class="menu-content">
@@ -431,7 +446,7 @@
 
           <!-- col init -->
           <div class="menu-col-l">
-            <h2 class="menu-title">Perros</h2>
+            <h3 class="menu-title">Perros</h3>
             <!-- menu item-start -->
             <div class="menu-item">
               <p class="menu-content">
@@ -502,7 +517,7 @@
 
     <section class="menu">
       <div class="container pt-10">
-        <h2 class="menu-title">Hamburguesas</h2>
+        <h3 class="menu-title">Hamburguesas</h3>
         <div class="menu-cols">
           <!-- col init -->
           <div class="menu-col-l">
@@ -614,7 +629,7 @@
         <div class="menu-cols">
           <!-- col init -->
           <div class="menu-col-l">
-            <h2 class="menu-title">Carnes</h2>
+            <h3 class="menu-title">Carnes</h3>
             <!-- menu item-start -->
             <div class="menu-item">
               <p class="menu-content">
@@ -678,7 +693,7 @@
 
           <!-- column init -->
           <div class="menu-col-r">
-            <h2 class="menu-title">Otros productos y bebidas</h2>
+            <h3 class="menu-title">Otros productos y bebidas</h3>
             <!-- menu item-start -->
             <div class="menu-item">
               <p class="menu-content">
@@ -736,8 +751,8 @@
       <div class="container">
         <div class="sub-container">
           <div class="contact-content">
-            <h3 class="contact-subtitle">Del campo a tu mesa</h3>
-            <h2 class="contact-title">Somos Campo Trece</h2>
+            <h2 class="contact-subtitle">Comida Rápida en Bogotá</h2>
+            <p class="contact-title">Somos Campo Trece</p>
           </div>
         </div>
         <div class="contact-columns">
@@ -752,7 +767,7 @@
                   target="_blank"
                   ><img
                     src="assets/Logo/whatsapp-logo.svg"
-                    alt="Whatsapp Logo"
+                    alt="Campo Trece Whatsapp Logo"
                     class="contact-btn-whatsapp-icon"
                   />Pide por WhatsApp</a
                 >
@@ -788,7 +803,7 @@
                 >
                   <img
                     src="assets/Logo/location-logo.svg"
-                    alt="Whatsapp Logo"
+                    alt="Campo Trece Whatsapp Logo"
                     class="contact-btn-location-icon"
                   />¿Cómo llegar?</a
                 >
