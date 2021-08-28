@@ -361,6 +361,9 @@ p {
   font-size: clamp(1rem, 1.5vw, 2rem);
 }
 
+.contact-tel {
+  color: var(--primary-light);
+}
 .contact-location-title {
   font-size: clamp(1rem, 1.5vw, 2rem);
 }
